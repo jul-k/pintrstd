@@ -6,4 +6,8 @@
         <%= link_to "Login", user_session_path, class: "btn btn-default" %>
         <%= link_to "Join", new_user_registration_path, class: "btn btn-primary" %>
     <% end %>
+
+    <% if user_signed_in? %>
+        <%= link_to "All Pins", pins_path, class: "btn btn-primary" %>
+    <% end %>
 </div>
