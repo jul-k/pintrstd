@@ -16,6 +16,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # gem 'bootstrap_form'
 # It's an easy file attachment library for ActiveRecord
 gem 'paperclip', '~> 5.1'
+# Provides both resource oriented interfaces and API clients for AWS services
+gem 'aws-sdk', '~> 2.6', '>= 2.6.44'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
