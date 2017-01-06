@@ -16,4 +16,5 @@
 //= require_tree .
 //= require bootstrap-sprockets
 //= require masonry/jquery.masonry
-//= require turbolinks
+
+// commented 'require turbolinks' because it doesn't reload Masonry
