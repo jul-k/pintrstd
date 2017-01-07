@@ -5,4 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :pins
+  validates :name, presence: true, length: {minimum: 3, maximum: 30}
 end
