@@ -7,7 +7,23 @@
 .box {
     margin: 5px;
     width: 214px;
+    box-shadow: 5px 5px 3px #888888;
     img {
         width: 100%;
     }
+    hr {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.pagination > li > a,
+.panel-footer > a,
+.panel-body > a {
+    color: #cb2027;
+}
+
+.pagination > .active > span {
+    background-color: #cb2027;
+    border-color: #cb2027;
 }

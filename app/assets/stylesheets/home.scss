@@ -1,8 +1,40 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Titillium+Web');
+
+body {
+    background: #e9e9e9;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .smaller-btn {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
     margin-top: 10px;
+}
+
+.navbar-default {
+    background: #fff;
+    img {
+        height: 20px;
+        width: auto;
+    }
+}
+
+.navbar-default .navbar-brand{
+    color: #cb2027;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.navbar-default .navbar-brand:hover {
+    cursor: pointer;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.panel {
+    margin-bottom: 0;
 }

@@ -13,6 +13,8 @@ gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 # gem 'bootstrap_form'
 # It's an easy file attachment library for ActiveRecord
 gem 'paperclip', '~> 5.1'
